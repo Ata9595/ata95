@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main {
+    background-color: rgba(128, 128, 128, 0.562);
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    display: flex;
+    padding: 20px 10px;
+    background-color: aqua;
+}
+
+#nav-items-ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+.nav-items-div {
+    display: flex;
+    align-items: center;
+}
+
+.nav_item {
+    margin: 0px 5px;
+}
+
+#logo {
+    margin-right: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/* Login Page */
+
+
+.login {
+    height: 89vh;
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.form-items {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+}
+
+#login-userName 
+, #singup-userName
+, #admin-userName {
+    margin: 10px 0px;
+    padding: 5px;
+}
+
+#login-password 
+, #singup-password
+, #admin-password {
+    margin: 10px 0px;
+    padding: 5px;
+}
